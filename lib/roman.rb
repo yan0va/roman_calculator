@@ -15,7 +15,7 @@ Numeral = { 1 => "I",
 
 def input(number)
   result = ''
-  Numeral.each do |arabic_numeral, roman_numeral|
+  Numeral.reverse_each do |arabic_numeral, roman_numeral|
     while number >= arabic_numeral
           number -= arabic_numeral
           result << roman_numeral
