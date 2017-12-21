@@ -14,6 +14,7 @@ Numeral = { 1 => "I",
 
 
 def input(number)
+  raise "nulla" unless number > 0
   result = ''
   Numeral.reverse_each do |arabic_numeral, roman_numeral|
     while number >= arabic_numeral
