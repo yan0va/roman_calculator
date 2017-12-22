@@ -1,2 +1,3 @@
 source 'https://rubygems.org'
-gem "rspec"
+gem 'rspec'
+gem 'dentaku', '~> 3.0'
